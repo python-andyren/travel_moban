@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+
+<!-- 下拉多选框 -->
+
+
+<!-- //下拉多选框 -->
+
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="header">
+			<div class="container">
+				<div class="header-left">
+					<div class="w3layouts-logo">
+						<h1>
+							<a href="index.html"><span>Njoy</span> Travels</a>
+						</h1>
+					</div>
+				</div>
+				<div class="header-right">
+					<div class="w3-header-top">
+						<ul>
+							<li><i class="fa fa-phone" aria-hidden="true"></i> : 010-82790226/7</li>
+							<li><i class="fa fa-envelope" aria-hidden="true"></i> : <a href="mailto:info@example.com">mail@1000phone.com</a></li>
+						</ul>
+					</p>
+					</div>
+					<div class="w3-header-bottom">
+						<div class="top-nav">
+							<nav class="navbar navbar-default">
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav">
+										<li><a class="active" href="index.html"</a>主页</li>
+										<li><a href="about.html">热门游记</a></li>
+										<li><a href="gallery.html">当季推荐</a></li>
+										<li><a href="contact.html">联系我们</a></li>
+										<li class=""><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Join us<span class="caret"></span></a>
+											<ul class="dropdown-menu">
+												<li><a class="hvr-bounce-to-bottom" href="single.html">About us</a></li>
+												<li><a class="hvr-bounce-to-bottom" href="typography.html">Typography</a></li>          
+											</ul>
+										</li>								
+										
+									</ul>	
+									<div class="clearfix"> </div>
+								</div>	
+							</nav>		
+						</div>
+						<div class="agileinfo-social-grids">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								<li><a href="#"><i class="fa fa-vk"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="w3layouts-banner-slider">
+			<div class="container">
+				<div class="slider">
+					<div class="callbacks_container">
+						<ul class="rslides callbacks callbacks1" id="slider4">
+							<li>
+								<div class="agileits-banner-info">
+									<h6>varius</h6>
+									<h3>Your Holiday!</h3>
+									<p>通过我们的预测推荐系统，能帮您找到最适合您的旅游胜地，超过80%通过我们系统推荐的游客都反馈了很好的体验，还在犹豫什么！enjoy trip！</p>
+									<div class="w3-button">
+										<a href="#">More</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="agileits-banner-info">
+									<h6>Lorem</h6>
+									<h3>Your Tips!</h3>
+									<p>我们还提供了丰富的旅游攻略和记录，帮您在出行前能将行程安排的妥妥当当，不必担忧行程上的问题！come on！</p>
+									<div class="w3-button">
+										<a href="#">More</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<script src="js/responsiveslides.min.js"></script>
+					<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider4").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:true,
+							speed: 1500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+					 </script>
+					<!--banner Slider starts Here-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<div class="w3l-heading">
+				<!-- <h2>Welcome</h2> -->
+			</div>
+			<div class="jarallax newsletter">
+				<div class="container">
+					<div class="w3l-heading newsletter-heading">
+						<h3>Don't fear the unknown</h3>
+					</div>
+				</div>
+				<div class="w3-agileits-newsletter">
+					<div class="subscribe-grid">
+						<form action="javascript:get_wordcloud()">
+							<input type="text" placeholder="我想去..." name="Subscribe" required="" id="input_province">
+							<button class="btn1"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+						</form>
+						<ul class="list">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="w3-welcome-grids" style="background-image: url(images/bgimg3_gaitubao_com_1140x276.jpg);">
+				<div class="col-md-7 w3-welcome-left" style=" float: left; width: 30%;">
+					
+					<p>
+					价格区间：小于
+					<select data-am-selected style="margin-left: 10px;"  id="a">
+					  <option value="a">1</option>
+					  <option value="b">2</option>
+					  <option value="o">3</option>
+					  <option value="m">4</option>
+					  <option value="d">5</option>
+					  <option value="d">6</option>
+					  <option value="d">7</option>
+					  <option value="d">8</option>
+					  <option value="d">9</option>
+					</select> * 100 元
+					</p>
+					
+					<p>
+					星级：
+					<select data-am-selected style="margin-left: 10px;"  id="b">
+					<option value="a">1</option>
+					<option value="b">2</option>
+					<option value="o">3</option>
+					<option value="m">4</option>
+					<option value="d" selected="selected">5</option>
+					</select>星级
+					</p>
+					
+					<p>
+					流量：少于
+					<select data-am-selected style="margin-left: 10px;" id="c">
+					<option value="a">1</option>
+					<option value="b">2</option>
+					<option value="o" selected="selected">3</option>
+					<option value="m">4</option>
+					<option value="d">5</option>
+					<option value="d">6</option>
+					<option value="d">7</option>
+					<option value="d">8</option>
+					<option value="d">9</option>
+					</select> * 100 人 ／ 天
+					</p>
+					
+					<p >
+					游记数量：多于
+					<select data-am-selected style="margin-left: 10px;" id="d">
+					<option value="a">1</option>
+					<option value="b" selected="selected">2</option>
+					<option value="o">3</option>
+					<option value="m">4</option>
+					<option value="d">5</option>
+					<option value="d">6</option>
+					<option value="d">7</option>
+					<option value="d">8</option>
+					<option value="d">9</option>
+					</select> * 100 篇
+					</p>
+					
+					<p >
+					省份：
+					<input style="width: 250px;" type="text" name="" id="e" value="上海" placeholder="请输入你想去的省份" />
+					</p>
+					
+					<p>
+						<button type="button" id="predict" onclick="send_post()">开始预测</button>
+					</p>
+
+				</div>
+				<div class="col-md-5 w3ls-welcome-img1" style="width: 790px ; float: left;" id="predict_result">
+					
+					<h4 style="margin-left: 5px; margin-top: 100px; color: ghostwhite; ">请在左侧选择您心仪的条件然后点击预测</h4>
+					<h4 style="margin-left: 5px; margin-top: 10px; color: ghostwhite;">我们将为您推荐最符合您的景点 Have fun！</h4>
+					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- //welcome -->
+	<!-- news -->
+	<div class="news">
+		<div class="container">
+			<div class="w3l-heading">
+				<h3>游记精选</h3>
+			</div>
+			<div class="wthree-news-grids">
+				<div class="col-md-5 agile-news-left">
+					<img src="https://p3-q.mafengwo.net/s12/M00/E9/B7/wKgED1wFRdWAP-MzAA0n9bQaQRg65.jpeg" alt="" />
+				</div>
+				<div class="col-md-7 agile-news-right">
+					<div class="date-grid">
+						<div class="admin">
+							<a href="#"><i class="fa fa-user" aria-hidden="true"></i>我要长到一米七💫 (北京)</a>
+						</div>
+						<div class="time">
+							<p><i class="fa fa-calendar" aria-hidden="true"></i> July 29,2018</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="w3-agile-news-info">
+						<a href="https://www.mafengwo.cn/i/11315390.html" style="font-size: 20px; font-weight: 300;"><span>北京-香港🇭🇰踏上旅程 我去 香港 🇭🇰是参加一个IBEP世界五百强体验项目，但这只是我的目的之一，更更重要的是，我想感受 香港 带给我的不一样的风格❣️ 出发之前，先去银行兑换一些港币...</span></a>
+					</div>
+					<div class="w3l-button">
+						<a href="https://www.mafengwo.cn/i/11315390.html">More</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //news -->
+	<!-- newsletter -->
+	<!-- services -->
+	<div class="services">
+		<div class="container">
+			<div class="w3l-heading">
+				<h2>景点真实数据分析</h2>
+			</div>
+			<div class="agileits-services">
+				<div class="services-right-grids">
+					<div class="col-sm-4 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-anchor" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5><a href="province_spots_numbers.html">景点数量柱状图</a></h5>
+							<p>我们统计了各个省市的景点数量，让您直观的能够看到每个省的旅游资源，让您清晰了解！</p>
+						</div>
+					</div>
+					<div class="col-sm-4 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-comment" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5><a href="word_cloud.html">词云分析</a></h5>
+							<p>通过对景点的切词分析，让你能够知道全国各个景点的关键词是什么，能让你清楚的选择景点的类别。</p>
+						</div>
+					</div>
+					<div class="col-sm-4 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-heartbeat" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5><a href="spots_number.html">景点热力分布</a></h5>
+							<p>我们通过描绘热力图，让您能够看到各个省份的景点数量，能够一目了然的发现旅游资源</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="services-right-grids">
+					<div class="col-sm-4 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-magnet" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5><a href="stars_number.html">星级分布</a></h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et, pellentesque eget mi.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-heartbeat" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5><a href="month_sold.html">月销量分布</a></h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et, pellentesque eget mi.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5><a href="ticket_price.html">景点门票分布</a></h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci enim, posuere sed tincidunt et, pellentesque eget mi.</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+
+
+	<!-- //newsletter -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="agile-footer-grids">
+				<div class="col-md-4 agile-footer-grid">
+					<h4>History of Us</h4>
+					<p>We are a team dedicated to helping visitors find the best answers，By our predictions，Many people don't hesitate to make decisions，and enjoying their trip!<span>We are young,We will do our best to help tourists</span></p>
+				</div>
+				<div class="col-md-4 agile-footer-grid">
+					<h4>Twitter Posts</h4>
+					<ul class="w3agile_footer_grid_list">
+						<li>Ut aut reiciendis voluptatibus maiores <a href="#">http://example.com</a> alias, ut aut reiciendis.
+							<span><i class="fa fa-twitter" aria-hidden="true"></i> 02 days ago</span></li>
+						<li>Itaque earum rerum hic tenetur a sapiente delectus <a href="#">http://mail.com</a> ut aut
+							voluptatibus.<span><i class="fa fa-twitter" aria-hidden="true"></i> 03 days ago</span></li>
+					</ul>
+				</div>
+				<div class="col-md-2 agile-footer-grid">
+					<h4>Events</h4>
+					<ul>
+						<li>12th Aug <a href="single.html">Curabitur</a></li>
+						<li>10th Sept <a href="single.html">Fusce urna</a></li>
+						<li>24th Sept <a href="single.html">Praesent</a></li>
+						<li>17th Oct <a href="single.html">Malesuada </a></li>
+						<li>09th Dec <a href="single.html">Cum sociis</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 agile-footer-grid">
+					<h4>Navigation</h4>
+					<ul>
+						<li class="text"><a href="index.html">主页</a></li>
+						<li class="text"><a href="about.html">热门游记</a></li>
+						<li class="text"><a href="icons.html">Icons</a></li>
+						<li class="text"><a href="gallery.html">当季推荐</a></li>
+						<li class="text"><a href="contact.html">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<!-- copyright -->
+	<div class="agileits-w3layouts-copyright">
+		<div class="container">
+			<p>Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://www.mobiletrain.org/">友情赞助</a></p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+			
+			/* init Jarallax */
+			$('.jarallax').jarallax({
+				speed: 0.5,
+				imgWidth: 1366,
+				imgHeight: 768
+			})
+			
+			function get_wordcloud(){
+				var text_input = $("#input_province").val()
+				var url = 'city_wordcloud/' + text_input + '.html'
+				$(location).attr('href', url)
+			}
+			
+			function send_post(){
+				var a = $("#a option:selected").text()
+				var b = $("#b option:selected").text()
+				var c = $("#c option:selected").text()
+				var d = $("#d option:selected").text()
+				var e = $("#e").val()
+				$.ajax({
+				   type: "POST",
+				   dataType: 'json',
+				   async:true,
+				   data:{'a':a,'b':b,'c':c,'d':d,'e':e,},
+				   url: "http://10.8.157.33/app/do_predict/",
+				   // url: "http://127.0.0.1:8000/app/do_predict/",
+				   success: function(res){
+						 	// var res = JSON.parse(res)
+						 	// console.log(res)
+							$('#predict_result').html('')
+							var s = '<h4 style="margin-left: 5px; margin-top: 10px; color: ghostwhite;">我们为您推荐了以下五个景点：</h4><ul style="color: whitesmoke; font-size: 18px;">'
+							for(var i=0;i<res.data.length;i++){
+								var html = '<li>'+ res.data[i].spot_name +'<span style="color: #83B439;"> 地址:</span>'+ res.data[i].address +'<span style="color: #83B439;"> 简介: </span>'+ res.data[i].intro +'</li>'
+								
+								s += html
+							}
+							var ss = '</ul>'
+							s += ss
+							$('#predict_result').html(s)
+							
+				   }
+				});
+				
+			}
+				
+			
+	</script>
+</body>	
+</html>
